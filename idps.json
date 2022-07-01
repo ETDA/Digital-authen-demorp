@@ -1,0 +1,15 @@
+{
+    "idps": [{
+        "name": "etdanewsite",
+        "issuer": "https://authenserver.teda.th",
+        "authorization_endpoint": "https://authenserver.teda.th/connect/authorize",
+        "token_endpoint": "https://authenserver.teda.th/connect/token",
+        "userinfo_endpoint": "https://authenserver.teda.th/connect/userinfo",
+        "jwks_uri": "https://authenserver.teda.th/.well-known/openid-configuration/jwks",
+        "client_id": "client_id",
+        "client_secret": "client_secret",
+        "assertion_consumer": "https://rp.teda.th/callback",
+        "scope": "openid",
+        "session": "true"
+    }]
+}
