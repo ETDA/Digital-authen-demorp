@@ -12,5 +12,4 @@ packed/
 uploads/
 logs/
 .idea*
-.env
 .project
